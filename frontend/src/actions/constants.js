@@ -1,0 +1,5 @@
+export const LOGIN = {
+  SUCCESS: "LOGIN/SUCCESS",
+  FAIL: "LOGIN/FAIL",
+  START: "LOGIN/START"
+};
