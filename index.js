@@ -9,5 +9,5 @@ app.get("/test", (req, res) => {
   res.send("HELO THERE");
 });
 
-app.use("/", express.static(path.join(__dirname, "frontend/build")));
+app.use("/", express.static("frontend/build"));
 // serving the react frontend with method we can avoid CORS problems in production enviornment
